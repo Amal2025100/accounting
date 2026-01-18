@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "location_code": "LOC001",
+        "name": "Main Store",
+        "address": "123 Main Street, Downtown",
+        "phone": "+1-555-0101",
+        "manager_name": "John Smith",
+        "is_active": true,
+        "created_at": "2026-01-01 00:00:00"
+    },
+    {
+        "id": 2,
+        "location_code": "LOC002",
+        "name": "Branch Store",
+        "address": "456 Oak Avenue, Uptown",
+        "phone": "+1-555-0102",
+        "manager_name": "Sarah Johnson",
+        "is_active": true,
+        "created_at": "2026-01-01 00:00:00"
+    }
+]

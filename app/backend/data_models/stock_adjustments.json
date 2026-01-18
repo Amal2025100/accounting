@@ -1,0 +1,54 @@
+{
+    "title": "stock_adjustments",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "product_id": {
+            "type": "integer",
+            "description": "Product ID"
+        },
+        "product_name": {
+            "type": "string",
+            "description": "Product name"
+        },
+        "adjustment_type": {
+            "type": "string",
+            "description": "Adjustment type (Add/Remove/Damage/Transfer)"
+        },
+        "quantity": {
+            "type": "integer",
+            "description": "Adjustment quantity"
+        },
+        "reason": {
+            "type": "string",
+            "description": "Adjustment reason"
+        },
+        "adjusted_by": {
+            "type": "string",
+            "description": "User who made adjustment"
+        },
+        "adjustment_date": {
+            "type": "string",
+            "description": "Adjustment date"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "product_id",
+        "adjustment_type",
+        "quantity",
+        "adjustment_date"
+    ]
+}

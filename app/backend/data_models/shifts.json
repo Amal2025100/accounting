@@ -1,0 +1,58 @@
+{
+    "title": "shifts",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "employee_id": {
+            "type": "integer",
+            "description": "Employee ID"
+        },
+        "employee_name": {
+            "type": "string",
+            "description": "Employee name"
+        },
+        "shift_date": {
+            "type": "string",
+            "description": "Shift date"
+        },
+        "start_time": {
+            "type": "string",
+            "description": "Shift start time"
+        },
+        "end_time": {
+            "type": "string",
+            "description": "Shift end time"
+        },
+        "clock_in": {
+            "type": "string",
+            "description": "Actual clock in time"
+        },
+        "clock_out": {
+            "type": "string",
+            "description": "Actual clock out time"
+        },
+        "status": {
+            "type": "string",
+            "description": "Shift status (Scheduled/Completed/Absent)"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "employee_id",
+        "shift_date",
+        "start_time",
+        "end_time"
+    ]
+}

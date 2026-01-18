@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "alert_date": "2026-01-14 08:00:00",
+        "alert_type": "Stock",
+        "message": "Cheddar Cheese 250g is critically low (5 units remaining)",
+        "risk_score": 8
+    },
+    {
+        "id": 2,
+        "alert_date": "2026-01-14 07:30:00",
+        "alert_type": "Stock",
+        "message": "Organic Eggs (12 pack) approaching low stock threshold",
+        "risk_score": 6
+    },
+    {
+        "id": 3,
+        "alert_date": "2026-01-13 16:45:00",
+        "alert_type": "Sales",
+        "message": "Unusual sales spike detected for Potato Chips (+45% vs average)",
+        "risk_score": 4
+    },
+    {
+        "id": 4,
+        "alert_date": "2026-01-13 14:20:00",
+        "alert_type": "Anomaly",
+        "message": "Transaction amount significantly higher than average detected",
+        "risk_score": 7
+    },
+    {
+        "id": 5,
+        "alert_date": "2026-01-12 09:15:00",
+        "alert_type": "Financial",
+        "message": "Cash flow projection shows potential shortage in 15 days",
+        "risk_score": 9
+    }
+]

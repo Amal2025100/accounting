@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "prediction_date": "2026-01-15",
+        "predicted_profit": 850,
+        "confidence": 0.88
+    },
+    {
+        "id": 2,
+        "prediction_date": "2026-01-16",
+        "predicted_profit": 920,
+        "confidence": 0.86
+    },
+    {
+        "id": 3,
+        "prediction_date": "2026-01-17",
+        "predicted_profit": 1050,
+        "confidence": 0.84
+    },
+    {
+        "id": 4,
+        "prediction_date": "2026-01-18",
+        "predicted_profit": 1150,
+        "confidence": 0.82
+    },
+    {
+        "id": 5,
+        "prediction_date": "2026-01-19",
+        "predicted_profit": 1020,
+        "confidence": 0.8
+    },
+    {
+        "id": 6,
+        "prediction_date": "2026-01-20",
+        "predicted_profit": 890,
+        "confidence": 0.78
+    },
+    {
+        "id": 7,
+        "prediction_date": "2026-01-21",
+        "predicted_profit": 820,
+        "confidence": 0.76
+    }
+]

@@ -1,0 +1,34 @@
+{
+    "title": "sales",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID of cashier"
+        },
+        "sale_date": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Sale timestamp"
+        },
+        "total_amount": {
+            "type": "number",
+            "description": "Total sale amount"
+        },
+        "cashier_name": {
+            "type": "string",
+            "description": "Cashier username"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "sale_date",
+        "total_amount",
+        "cashier_name"
+    ]
+}

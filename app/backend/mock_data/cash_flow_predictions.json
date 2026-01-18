@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "prediction_date": "2026-01-15",
+        "predicted_balance": 126500
+    },
+    {
+        "id": 2,
+        "prediction_date": "2026-01-16",
+        "predicted_balance": 128200
+    },
+    {
+        "id": 3,
+        "prediction_date": "2026-01-17",
+        "predicted_balance": 129800
+    },
+    {
+        "id": 4,
+        "prediction_date": "2026-01-18",
+        "predicted_balance": 131500
+    },
+    {
+        "id": 5,
+        "prediction_date": "2026-01-19",
+        "predicted_balance": 130200
+    },
+    {
+        "id": 6,
+        "prediction_date": "2026-01-20",
+        "predicted_balance": 128900
+    },
+    {
+        "id": 7,
+        "prediction_date": "2026-01-21",
+        "predicted_balance": 127600
+    }
+]

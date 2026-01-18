@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Cash",
+        "type": "Cash",
+        "is_active": true,
+        "created_at": "2026-01-01 00:00:00"
+    },
+    {
+        "id": 2,
+        "name": "Credit Card",
+        "type": "Card",
+        "is_active": true,
+        "created_at": "2026-01-01 00:00:00"
+    },
+    {
+        "id": 3,
+        "name": "Debit Card",
+        "type": "Card",
+        "is_active": true,
+        "created_at": "2026-01-01 00:00:00"
+    },
+    {
+        "id": 4,
+        "name": "Mobile Payment",
+        "type": "Mobile",
+        "is_active": true,
+        "created_at": "2026-01-01 00:00:00"
+    }
+]

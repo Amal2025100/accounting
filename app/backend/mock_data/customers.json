@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "user_id": "1",
+        "customer_code": "CUST001",
+        "name": "Alice Johnson",
+        "email": "alice@example.com",
+        "phone": "+1-555-1001",
+        "address": "789 Elm St",
+        "loyalty_points": 250,
+        "total_purchases": 1500.0,
+        "last_purchase_date": "2026-01-14",
+        "created_at": "2025-12-01 00:00:00"
+    },
+    {
+        "id": 2,
+        "user_id": "1",
+        "customer_code": "CUST002",
+        "name": "Bob Smith",
+        "email": "bob@example.com",
+        "phone": "+1-555-1002",
+        "address": "321 Pine St",
+        "loyalty_points": 180,
+        "total_purchases": 980.0,
+        "last_purchase_date": "2026-01-13",
+        "created_at": "2025-12-05 00:00:00"
+    },
+    {
+        "id": 3,
+        "user_id": "1",
+        "customer_code": "CUST003",
+        "name": "Carol White",
+        "email": "carol@example.com",
+        "phone": "+1-555-1003",
+        "address": "654 Maple Ave",
+        "loyalty_points": 420,
+        "total_purchases": 2800.0,
+        "last_purchase_date": "2026-01-15",
+        "created_at": "2025-11-20 00:00:00"
+    },
+    {
+        "id": 4,
+        "user_id": "1",
+        "customer_code": "CUST004",
+        "name": "David Brown",
+        "email": "david@example.com",
+        "phone": "+1-555-1004",
+        "address": "987 Cedar Ln",
+        "loyalty_points": 95,
+        "total_purchases": 450.0,
+        "last_purchase_date": "2026-01-10",
+        "created_at": "2026-01-02 00:00:00"
+    },
+    {
+        "id": 5,
+        "user_id": "1",
+        "customer_code": "CUST005",
+        "name": "Emma Davis",
+        "email": "emma@example.com",
+        "phone": "+1-555-1005",
+        "address": "147 Birch Rd",
+        "loyalty_points": 310,
+        "total_purchases": 1850.0,
+        "last_purchase_date": "2026-01-14",
+        "created_at": "2025-12-15 00:00:00"
+    }
+]

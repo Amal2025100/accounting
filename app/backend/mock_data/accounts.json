@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Cash",
+        "account_type": "Asset",
+        "balance": 125000.0
+    },
+    {
+        "id": 2,
+        "name": "Inventory",
+        "account_type": "Asset",
+        "balance": 45000.0
+    },
+    {
+        "id": 3,
+        "name": "Accounts Receivable",
+        "account_type": "Asset",
+        "balance": 8500.0
+    },
+    {
+        "id": 4,
+        "name": "Equipment",
+        "account_type": "Asset",
+        "balance": 35000.0
+    },
+    {
+        "id": 5,
+        "name": "Accounts Payable",
+        "account_type": "Liability",
+        "balance": 12000.0
+    },
+    {
+        "id": 6,
+        "name": "Loans Payable",
+        "account_type": "Liability",
+        "balance": 50000.0
+    },
+    {
+        "id": 7,
+        "name": "Owner Equity",
+        "account_type": "Equity",
+        "balance": 100000.0
+    },
+    {
+        "id": 8,
+        "name": "Sales Revenue",
+        "account_type": "Revenue",
+        "balance": 85000.0
+    },
+    {
+        "id": 9,
+        "name": "Cost of Goods Sold",
+        "account_type": "Expense",
+        "balance": 52000.0
+    },
+    {
+        "id": 10,
+        "name": "Rent Expense",
+        "account_type": "Expense",
+        "balance": 12000.0
+    },
+    {
+        "id": 11,
+        "name": "Utilities Expense",
+        "account_type": "Expense",
+        "balance": 3500.0
+    },
+    {
+        "id": 12,
+        "name": "Salaries Expense",
+        "account_type": "Expense",
+        "balance": 28000.0
+    }
+]

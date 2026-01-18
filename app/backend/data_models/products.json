@@ -1,0 +1,43 @@
+{
+    "title": "products",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "name": {
+            "type": "string",
+            "description": "Product name"
+        },
+        "category": {
+            "type": "string",
+            "description": "Product category"
+        },
+        "quantity": {
+            "type": "integer",
+            "description": "Stock quantity"
+        },
+        "cost_price": {
+            "type": "number",
+            "description": "Cost price"
+        },
+        "sell_price": {
+            "type": "number",
+            "description": "Selling price"
+        },
+        "low_stock_threshold": {
+            "type": "integer",
+            "description": "Low stock alert threshold"
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "category",
+        "quantity",
+        "cost_price",
+        "sell_price",
+        "low_stock_threshold"
+    ]
+}

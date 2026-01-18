@@ -1,0 +1,54 @@
+{
+    "title": "purchase_order_items",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "po_id": {
+            "type": "integer",
+            "description": "Purchase order ID"
+        },
+        "product_id": {
+            "type": "integer",
+            "description": "Product ID"
+        },
+        "product_name": {
+            "type": "string",
+            "description": "Product name"
+        },
+        "quantity": {
+            "type": "integer",
+            "description": "Ordered quantity"
+        },
+        "unit_price": {
+            "type": "number",
+            "description": "Unit price"
+        },
+        "total_price": {
+            "type": "number",
+            "description": "Total price"
+        },
+        "received_quantity": {
+            "type": "integer",
+            "description": "Received quantity"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "po_id",
+        "product_id",
+        "quantity",
+        "unit_price"
+    ]
+}

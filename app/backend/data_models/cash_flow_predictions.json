@@ -1,0 +1,24 @@
+{
+    "title": "cash_flow_predictions",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "prediction_date": {
+            "type": "string",
+            "format": "date",
+            "description": "Prediction date"
+        },
+        "predicted_balance": {
+            "type": "number",
+            "description": "Predicted cash balance"
+        }
+    },
+    "required": [
+        "id",
+        "prediction_date",
+        "predicted_balance"
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "title": "notifications",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "title": {
+            "type": "string",
+            "description": "Notification title"
+        },
+        "message": {
+            "type": "string",
+            "description": "Notification message"
+        },
+        "type": {
+            "type": "string",
+            "description": "Notification type (Info/Warning/Error/Success)"
+        },
+        "is_read": {
+            "type": "boolean",
+            "description": "Read status"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "title",
+        "message",
+        "type"
+    ]
+}

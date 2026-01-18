@@ -1,0 +1,61 @@
+{
+    "title": "employees",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "employee_code": {
+            "type": "string",
+            "description": "Unique employee code"
+        },
+        "name": {
+            "type": "string",
+            "description": "Employee name"
+        },
+        "email": {
+            "type": "string",
+            "description": "Email address"
+        },
+        "phone": {
+            "type": "string",
+            "description": "Phone number"
+        },
+        "role": {
+            "type": "string",
+            "description": "Job role"
+        },
+        "department": {
+            "type": "string",
+            "description": "Department"
+        },
+        "hire_date": {
+            "type": "string",
+            "description": "Hire date"
+        },
+        "salary": {
+            "type": "number",
+            "description": "Monthly salary"
+        },
+        "status": {
+            "type": "string",
+            "description": "Employment status (Active/Inactive)"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "employee_code",
+        "name",
+        "role"
+    ]
+}

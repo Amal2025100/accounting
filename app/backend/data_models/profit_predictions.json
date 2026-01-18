@@ -1,0 +1,29 @@
+{
+    "title": "profit_predictions",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "prediction_date": {
+            "type": "string",
+            "format": "date",
+            "description": "Prediction date"
+        },
+        "predicted_profit": {
+            "type": "number",
+            "description": "Predicted profit value"
+        },
+        "confidence": {
+            "type": "number",
+            "description": "Confidence level 0-1"
+        }
+    },
+    "required": [
+        "id",
+        "prediction_date",
+        "predicted_profit",
+        "confidence"
+    ]
+}

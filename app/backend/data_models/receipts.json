@@ -1,0 +1,54 @@
+{
+    "title": "receipts",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "receipt_number": {
+            "type": "string",
+            "description": "Unique receipt number"
+        },
+        "sale_id": {
+            "type": "integer",
+            "description": "Related sale ID"
+        },
+        "customer_id": {
+            "type": "integer",
+            "description": "Customer ID"
+        },
+        "total_amount": {
+            "type": "number",
+            "description": "Total amount"
+        },
+        "payment_method": {
+            "type": "string",
+            "description": "Payment method"
+        },
+        "cashier_name": {
+            "type": "string",
+            "description": "Cashier name"
+        },
+        "receipt_date": {
+            "type": "string",
+            "description": "Receipt date"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "receipt_number",
+        "sale_id",
+        "total_amount",
+        "receipt_date"
+    ]
+}

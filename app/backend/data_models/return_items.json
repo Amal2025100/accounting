@@ -1,0 +1,50 @@
+{
+    "title": "return_items",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "return_id": {
+            "type": "integer",
+            "description": "Return ID"
+        },
+        "product_id": {
+            "type": "integer",
+            "description": "Product ID"
+        },
+        "product_name": {
+            "type": "string",
+            "description": "Product name"
+        },
+        "quantity": {
+            "type": "integer",
+            "description": "Return quantity"
+        },
+        "price": {
+            "type": "number",
+            "description": "Unit price"
+        },
+        "total_price": {
+            "type": "number",
+            "description": "Total return price"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "return_id",
+        "product_id",
+        "quantity",
+        "price"
+    ]
+}

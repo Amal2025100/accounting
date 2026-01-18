@@ -1,0 +1,43 @@
+{
+    "title": "sale_items",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "sale_id": {
+            "type": "integer",
+            "description": "Foreign key to sales"
+        },
+        "product_id": {
+            "type": "integer",
+            "description": "Foreign key to products"
+        },
+        "product_name": {
+            "type": "string",
+            "description": "Product name"
+        },
+        "quantity": {
+            "type": "integer",
+            "description": "Quantity sold"
+        },
+        "price": {
+            "type": "number",
+            "description": "Price per unit"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "sale_id",
+        "product_id",
+        "product_name",
+        "quantity",
+        "price"
+    ]
+}

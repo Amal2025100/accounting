@@ -1,0 +1,34 @@
+{
+    "title": "journal_entries",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID who created entry"
+        },
+        "entry_date": {
+            "type": "string",
+            "format": "date",
+            "description": "Entry date"
+        },
+        "description": {
+            "type": "string",
+            "description": "Entry description"
+        },
+        "created_by": {
+            "type": "string",
+            "description": "Username who created"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "entry_date",
+        "description",
+        "created_by"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "title": "sales_forecasts",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "forecast_date": {
+            "type": "string",
+            "format": "date",
+            "description": "Forecast date"
+        },
+        "predicted_value": {
+            "type": "number",
+            "description": "Predicted sales value"
+        },
+        "confidence": {
+            "type": "number",
+            "description": "Confidence level 0-1"
+        }
+    },
+    "required": [
+        "id",
+        "forecast_date",
+        "predicted_value",
+        "confidence"
+    ]
+}

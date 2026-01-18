@@ -1,0 +1,28 @@
+{
+    "title": "accounts",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "name": {
+            "type": "string",
+            "description": "Account name"
+        },
+        "account_type": {
+            "type": "string",
+            "description": "Account type: Asset, Liability, Equity, Revenue, Expense"
+        },
+        "balance": {
+            "type": "number",
+            "description": "Account balance"
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "account_type",
+        "balance"
+    ]
+}

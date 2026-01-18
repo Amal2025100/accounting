@@ -1,0 +1,43 @@
+{
+    "title": "locations",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "location_code": {
+            "type": "string",
+            "description": "Unique location code"
+        },
+        "name": {
+            "type": "string",
+            "description": "Location name"
+        },
+        "address": {
+            "type": "string",
+            "description": "Physical address"
+        },
+        "phone": {
+            "type": "string",
+            "description": "Phone number"
+        },
+        "manager_name": {
+            "type": "string",
+            "description": "Location manager"
+        },
+        "is_active": {
+            "type": "boolean",
+            "description": "Active status"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "location_code",
+        "name"
+    ]
+}

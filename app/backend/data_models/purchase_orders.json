@@ -1,0 +1,58 @@
+{
+    "title": "purchase_orders",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "po_number": {
+            "type": "string",
+            "description": "Purchase order number"
+        },
+        "supplier_id": {
+            "type": "integer",
+            "description": "Supplier ID"
+        },
+        "supplier_name": {
+            "type": "string",
+            "description": "Supplier name"
+        },
+        "order_date": {
+            "type": "string",
+            "description": "Order date"
+        },
+        "expected_delivery": {
+            "type": "string",
+            "description": "Expected delivery date"
+        },
+        "total_amount": {
+            "type": "number",
+            "description": "Total order amount"
+        },
+        "status": {
+            "type": "string",
+            "description": "Order status (Pending/Received/Cancelled)"
+        },
+        "created_by": {
+            "type": "string",
+            "description": "Created by user"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "po_number",
+        "supplier_id",
+        "order_date",
+        "total_amount"
+    ]
+}

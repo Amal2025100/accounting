@@ -1,0 +1,35 @@
+{
+    "title": "tax_rates",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "name": {
+            "type": "string",
+            "description": "Tax name"
+        },
+        "rate": {
+            "type": "number",
+            "description": "Tax rate percentage"
+        },
+        "description": {
+            "type": "string",
+            "description": "Tax description"
+        },
+        "is_active": {
+            "type": "boolean",
+            "description": "Active status"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "rate"
+    ]
+}

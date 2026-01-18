@@ -1,0 +1,56 @@
+{
+    "title": "suppliers",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "supplier_code": {
+            "type": "string",
+            "description": "Unique supplier code"
+        },
+        "name": {
+            "type": "string",
+            "description": "Supplier name"
+        },
+        "contact_person": {
+            "type": "string",
+            "description": "Contact person name"
+        },
+        "email": {
+            "type": "string",
+            "description": "Email address"
+        },
+        "phone": {
+            "type": "string",
+            "description": "Phone number"
+        },
+        "address": {
+            "type": "string",
+            "description": "Physical address"
+        },
+        "payment_terms": {
+            "type": "string",
+            "description": "Payment terms"
+        },
+        "status": {
+            "type": "string",
+            "description": "Supplier status (Active/Inactive)"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "supplier_code",
+        "name"
+    ]
+}

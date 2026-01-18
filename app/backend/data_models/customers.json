@@ -1,0 +1,56 @@
+{
+    "title": "customers",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "customer_code": {
+            "type": "string",
+            "description": "Unique customer code"
+        },
+        "name": {
+            "type": "string",
+            "description": "Customer name"
+        },
+        "email": {
+            "type": "string",
+            "description": "Email address"
+        },
+        "phone": {
+            "type": "string",
+            "description": "Phone number"
+        },
+        "address": {
+            "type": "string",
+            "description": "Physical address"
+        },
+        "loyalty_points": {
+            "type": "integer",
+            "description": "Accumulated loyalty points"
+        },
+        "total_purchases": {
+            "type": "number",
+            "description": "Total purchase amount"
+        },
+        "last_purchase_date": {
+            "type": "string",
+            "description": "Last purchase date"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "customer_code",
+        "name"
+    ]
+}

@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "user_id": "1",
+        "employee_id": 3,
+        "employee_name": "Mike Cashier",
+        "shift_date": "2026-01-15",
+        "start_time": "08:00:00",
+        "end_time": "16:00:00",
+        "clock_in": "07:55:00",
+        "clock_out": "16:05:00",
+        "status": "Completed",
+        "created_at": "2026-01-14 00:00:00"
+    },
+    {
+        "id": 2,
+        "user_id": "1",
+        "employee_id": 4,
+        "employee_name": "Lisa Cashier",
+        "shift_date": "2026-01-15",
+        "start_time": "16:00:00",
+        "end_time": "00:00:00",
+        "clock_in": "15:58:00",
+        "clock_out": "00:02:00",
+        "status": "Completed",
+        "created_at": "2026-01-14 00:00:00"
+    },
+    {
+        "id": 3,
+        "user_id": "1",
+        "employee_id": 3,
+        "employee_name": "Mike Cashier",
+        "shift_date": "2026-01-16",
+        "start_time": "08:00:00",
+        "end_time": "16:00:00",
+        "status": "Scheduled",
+        "created_at": "2026-01-15 00:00:00"
+    },
+    {
+        "id": 4,
+        "user_id": "1",
+        "employee_id": 4,
+        "employee_name": "Lisa Cashier",
+        "shift_date": "2026-01-16",
+        "start_time": "16:00:00",
+        "end_time": "00:00:00",
+        "status": "Scheduled",
+        "created_at": "2026-01-15 00:00:00"
+    },
+    {
+        "id": 5,
+        "user_id": "1",
+        "employee_id": 5,
+        "employee_name": "Tom Inventory",
+        "shift_date": "2026-01-15",
+        "start_time": "09:00:00",
+        "end_time": "17:00:00",
+        "clock_in": "09:02:00",
+        "clock_out": "17:00:00",
+        "status": "Completed",
+        "created_at": "2026-01-14 00:00:00"
+    }
+]

@@ -1,0 +1,31 @@
+{
+    "title": "payment_methods",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "name": {
+            "type": "string",
+            "description": "Payment method name"
+        },
+        "type": {
+            "type": "string",
+            "description": "Payment type (Cash/Card/Mobile/Other)"
+        },
+        "is_active": {
+            "type": "boolean",
+            "description": "Active status"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "type"
+    ]
+}

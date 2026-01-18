@@ -1,0 +1,44 @@
+{
+    "title": "audit_logs",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "action": {
+            "type": "string",
+            "description": "Action performed"
+        },
+        "entity_type": {
+            "type": "string",
+            "description": "Entity type (Product/Sale/User etc)"
+        },
+        "entity_id": {
+            "type": "integer",
+            "description": "Entity ID"
+        },
+        "details": {
+            "type": "string",
+            "description": "Action details"
+        },
+        "ip_address": {
+            "type": "string",
+            "description": "User IP address"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "action",
+        "entity_type"
+    ]
+}

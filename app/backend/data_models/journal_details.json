@@ -1,0 +1,43 @@
+{
+    "title": "journal_details",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "entry_id": {
+            "type": "integer",
+            "description": "Foreign key to journal_entries"
+        },
+        "account_id": {
+            "type": "integer",
+            "description": "Foreign key to accounts"
+        },
+        "account_name": {
+            "type": "string",
+            "description": "Account name"
+        },
+        "debit": {
+            "type": "number",
+            "description": "Debit amount"
+        },
+        "credit": {
+            "type": "number",
+            "description": "Credit amount"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "entry_id",
+        "account_id",
+        "account_name",
+        "debit",
+        "credit"
+    ]
+}

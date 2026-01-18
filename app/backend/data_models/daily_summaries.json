@@ -1,0 +1,39 @@
+{
+    "title": "daily_summaries",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "summary_date": {
+            "type": "string",
+            "format": "date",
+            "description": "Summary date"
+        },
+        "total_sales": {
+            "type": "number",
+            "description": "Total sales"
+        },
+        "total_expenses": {
+            "type": "number",
+            "description": "Total expenses"
+        },
+        "profit": {
+            "type": "number",
+            "description": "Profit"
+        },
+        "cash_balance": {
+            "type": "number",
+            "description": "Cash balance"
+        }
+    },
+    "required": [
+        "id",
+        "summary_date",
+        "total_sales",
+        "total_expenses",
+        "profit",
+        "cash_balance"
+    ]
+}

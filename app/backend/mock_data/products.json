@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "name": "Fresh Milk 1L",
+        "category": "Dairy",
+        "quantity": 45,
+        "cost_price": 2.5,
+        "sell_price": 3.99,
+        "low_stock_threshold": 20
+    },
+    {
+        "id": 2,
+        "name": "Whole Wheat Bread",
+        "category": "Bakery",
+        "quantity": 12,
+        "cost_price": 1.2,
+        "sell_price": 2.49,
+        "low_stock_threshold": 15
+    },
+    {
+        "id": 3,
+        "name": "Organic Eggs (12 pack)",
+        "category": "Dairy",
+        "quantity": 8,
+        "cost_price": 3.0,
+        "sell_price": 4.99,
+        "low_stock_threshold": 10
+    },
+    {
+        "id": 4,
+        "name": "Orange Juice 2L",
+        "category": "Beverages",
+        "quantity": 67,
+        "cost_price": 3.5,
+        "sell_price": 5.99,
+        "low_stock_threshold": 25
+    },
+    {
+        "id": 5,
+        "name": "Potato Chips 200g",
+        "category": "Snacks",
+        "quantity": 89,
+        "cost_price": 1.5,
+        "sell_price": 2.99,
+        "low_stock_threshold": 30
+    },
+    {
+        "id": 6,
+        "name": "Greek Yogurt 500g",
+        "category": "Dairy",
+        "quantity": 34,
+        "cost_price": 2.8,
+        "sell_price": 4.49,
+        "low_stock_threshold": 20
+    },
+    {
+        "id": 7,
+        "name": "Cheddar Cheese 250g",
+        "category": "Dairy",
+        "quantity": 5,
+        "cost_price": 4.0,
+        "sell_price": 6.99,
+        "low_stock_threshold": 10
+    },
+    {
+        "id": 8,
+        "name": "Coca Cola 2L",
+        "category": "Beverages",
+        "quantity": 120,
+        "cost_price": 1.8,
+        "sell_price": 3.49,
+        "low_stock_threshold": 40
+    },
+    {
+        "id": 9,
+        "name": "Tomatoes (1kg)",
+        "category": "Produce",
+        "quantity": 56,
+        "cost_price": 2.0,
+        "sell_price": 3.99,
+        "low_stock_threshold": 25
+    },
+    {
+        "id": 10,
+        "name": "Bananas (1kg)",
+        "category": "Produce",
+        "quantity": 78,
+        "cost_price": 1.2,
+        "sell_price": 2.49,
+        "low_stock_threshold": 30
+    },
+    {
+        "id": 11,
+        "name": "Chicken Breast (1kg)",
+        "category": "Meat",
+        "quantity": 23,
+        "cost_price": 6.5,
+        "sell_price": 9.99,
+        "low_stock_threshold": 15
+    },
+    {
+        "id": 12,
+        "name": "Ground Beef (500g)",
+        "category": "Meat",
+        "quantity": 18,
+        "cost_price": 5.0,
+        "sell_price": 7.99,
+        "low_stock_threshold": 12
+    },
+    {
+        "id": 13,
+        "name": "Pasta 500g",
+        "category": "Groceries",
+        "quantity": 95,
+        "cost_price": 0.8,
+        "sell_price": 1.99,
+        "low_stock_threshold": 35
+    },
+    {
+        "id": 14,
+        "name": "Rice 2kg",
+        "category": "Groceries",
+        "quantity": 42,
+        "cost_price": 3.5,
+        "sell_price": 5.99,
+        "low_stock_threshold": 20
+    },
+    {
+        "id": 15,
+        "name": "Olive Oil 1L",
+        "category": "Groceries",
+        "quantity": 28,
+        "cost_price": 7.0,
+        "sell_price": 11.99,
+        "low_stock_threshold": 15
+    }
+]

@@ -1,0 +1,58 @@
+{
+    "title": "returns",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "return_number": {
+            "type": "string",
+            "description": "Unique return number"
+        },
+        "sale_id": {
+            "type": "integer",
+            "description": "Original sale ID"
+        },
+        "customer_id": {
+            "type": "integer",
+            "description": "Customer ID"
+        },
+        "return_amount": {
+            "type": "number",
+            "description": "Return amount"
+        },
+        "reason": {
+            "type": "string",
+            "description": "Return reason"
+        },
+        "processed_by": {
+            "type": "string",
+            "description": "Processed by user"
+        },
+        "return_date": {
+            "type": "string",
+            "description": "Return date"
+        },
+        "status": {
+            "type": "string",
+            "description": "Return status (Pending/Approved/Rejected)"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "return_number",
+        "sale_id",
+        "return_amount",
+        "return_date"
+    ]
+}
